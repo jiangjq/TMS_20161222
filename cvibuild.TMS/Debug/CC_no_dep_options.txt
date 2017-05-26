@@ -1,0 +1,1 @@
+-force-include-file "DAQTaskInTempProject.c";"d:\TMS\TMS_20161222\DAQTaskInTempProject.c" -force-include-file "DAQTaskInTempProject.h";"d:\TMS\TMS_20161222\DAQTaskInTempProject.h" -force-include-file "Self_Def.h";"d:\TMS\TMS_20161222\Self_Def.h" -force-include-file "TMS.c";"d:\TMS\TMS_20161222\TMS.c" -force-include-file "TMS.h";"d:\TMS\TMS_20161222\TMS.h" 

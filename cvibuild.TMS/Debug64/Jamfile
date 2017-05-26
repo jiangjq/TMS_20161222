@@ -1,0 +1,51 @@
+CCFLAGS = -g ;
+HDRS = 	"c:\\program files (x86)\\national instruments\\cvi2015\\toolslib\\activex\\word"
+	"c:\\program files (x86)\\national instruments\\cvi2015\\toolslib\\activex\\excel"
+	"c:\\program files (x86)\\national instruments\\cvi2015\\toolslib\\custctrl"
+	"c:\\program files (x86)\\national instruments\\cvi2015\\toolslib\\custctrl\\custsupp"
+	"c:\\program files (x86)\\national instruments\\cvi2015\\toolslib\\cvirtsup"
+	"c:\\program files (x86)\\national instruments\\cvi2015\\toolslib\\datasock"
+	"c:\\program files (x86)\\national instruments\\cvi2015\\toolslib\\daqUtil"
+	"c:\\program files (x86)\\national instruments\\cvi2015\\toolslib\\printing"
+	"c:\\program files (x86)\\national instruments\\cvi2015\\toolslib\\toolbox"
+	"c:\\program files (x86)\\national instruments\\cvi2015\\toolslib\\reportgen"
+	"c:\\program files (x86)\\national instruments\\cvi2015\\toolslib\\localui"
+	"c:\\program files (x86)\\national instruments\\cvi2015\\instr"
+	"C:\\Program Files (x86)\\National Instruments\\Shared\\CVI\\toolslib\\custctrl"
+	"C:\\Program Files (x86)\\National Instruments\\Shared\\CVI\\toolslib\\custctrl\\custsupp"
+	"C:\\Program Files (x86)\\National Instruments\\Shared\\CVI\\instr"
+	"C:\\ProgramData\\National Instruments\\CVI2015\\instr"
+	"c:\\program files (x86)\\national instruments\\cvi2015\\include"
+	"C:\\Program Files (x86)\\National Instruments\\Shared\\CVI\\include"
+	"C:\\ProgramData\\National Instruments\\CVI2015\\include"
+	"C:\\ProgramData\\National Instruments\\CVI\\include"
+	"c:\\program files (x86)\\national instruments\\cvi2015\\include\\ansi"
+	"c:\\program files (x86)\\national instruments\\cvi2015\\include\\clang\\3.3"
+	"C:\\Program Files\\IVI Foundation\\IVI\\Include"
+	"C:\\Program Files\\IVI Foundation\\VISA\\win64\\include"
+	"C:\\Program Files (x86)\\National Instruments\\Shared\\MSDTRedistributables\\SDKHeaderFiles\\8.1"
+	"c:\\Program Files (x86)\\National Instruments\\CVI2015\\bin"
+	"c:\\ProgramData\\National Instruments\\CVI2015\\bin"
+	"c:\\Program Files (x86)\\National Instruments\\Shared\\CVI\\Bin"
+	;
+include Jamfile_instr ;
+LOCATE on "DAQTaskInTempProject.c" = "d:\\TMS\\TMS_20161222" ;
+LOCATE on "DAQTaskInTempProject.h" = "d:\\TMS\\TMS_20161222" ;
+LOCATE on "Self_Def.h" = "d:\\TMS\\TMS_20161222" ;
+LOCATE on "TMS.c" = "d:\\TMS\\TMS_20161222" ;
+LOCATE on "TMS.h" = "d:\\TMS\\TMS_20161222" ;
+Object "d:\\TMS\\TMS_20161222\\cvibuild.TMS\\Debug64\\DAQTaskInTempProject.obj" : "d:\\TMS\\TMS_20161222\\DAQTaskInTempProject.c" ;
+FILENUM on "d:\\TMS\\TMS_20161222\\cvibuild.TMS\\Debug64\\DAQTaskInTempProject.obj" = 1 ;
+DEFPROTS on "d:\\TMS\\TMS_20161222\\cvibuild.TMS\\Debug64\\DAQTaskInTempProject.obj" = "d:\\TMS\\TMS_20161222\\cvibuild.TMS\\Debug64\\DAQTaskInTempProject.obj.cvidefprots" ;
+OUTFILE on "d:\\TMS\\TMS_20161222\\cvibuild.TMS\\Debug64\\DAQTaskInTempProject.obj" = "d:\\TMS\\TMS_20161222\\cvibuild.TMS\\Debug64\\DAQTaskInTempProject.obj.out" ;
+PrjObjects += "d:\\TMS\\TMS_20161222\\cvibuild.TMS\\Debug64\\DAQTaskInTempProject.obj" ;
+Object "d:\\TMS\\TMS_20161222\\cvibuild.TMS\\Debug64\\TMS.obj" : "d:\\TMS\\TMS_20161222\\TMS.c" ;
+FILENUM on "d:\\TMS\\TMS_20161222\\cvibuild.TMS\\Debug64\\TMS.obj" = 2 ;
+DEFPROTS on "d:\\TMS\\TMS_20161222\\cvibuild.TMS\\Debug64\\TMS.obj" = "d:\\TMS\\TMS_20161222\\cvibuild.TMS\\Debug64\\TMS.obj.cvidefprots" ;
+OUTFILE on "d:\\TMS\\TMS_20161222\\cvibuild.TMS\\Debug64\\TMS.obj" = "d:\\TMS\\TMS_20161222\\cvibuild.TMS\\Debug64\\TMS.obj.out" ;
+PrjObjects += "d:\\TMS\\TMS_20161222\\cvibuild.TMS\\Debug64\\TMS.obj" ;
+Object "d:\\TMS\\TMS_20161222\\cvibuild.TMS\\Debug64\\resources.res" : "d:\\TMS\\TMS_20161222\\cvibuild.TMS\\Debug64\\resources.in.rc" ;
+MainFromObjects "d:\\TMS\\TMS_20161222\\cvibuild.TMS\\Debug64\\TMS.exe" : $(PrjObjects) $(InstrObjects) ;
+Depends "d:\\TMS\\TMS_20161222\\cvibuild.TMS\\Debug64\\TMS.exe" : "d:\\TMS\\TMS_20161222\\cvibuild.TMS\\Debug64\\link_options.txt" ;
+Depends "d:\\TMS\\TMS_20161222\\cvibuild.TMS\\Debug64\\TMS.exe" : "d:\\TMS\\TMS_20161222\\cvibuild.TMS\\Debug64\\resources.res" ;
+Depends all : "d:\\TMS\\TMS_20161222\\cvibuild.TMS\\Debug64\\TMS.exe" ;

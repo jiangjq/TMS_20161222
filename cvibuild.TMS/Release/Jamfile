@@ -1,0 +1,57 @@
+HDRS = 	"c:\\program files (x86)\\national instruments\\cvi2015\\toolslib\\activex\\word"
+	"c:\\program files (x86)\\national instruments\\cvi2015\\toolslib\\activex\\excel"
+	"c:\\program files (x86)\\national instruments\\cvi2015\\toolslib\\custctrl"
+	"c:\\program files (x86)\\national instruments\\cvi2015\\toolslib\\custctrl\\custsupp"
+	"c:\\program files (x86)\\national instruments\\cvi2015\\toolslib\\cvirtsup"
+	"c:\\program files (x86)\\national instruments\\cvi2015\\toolslib\\datasock"
+	"c:\\program files (x86)\\national instruments\\cvi2015\\toolslib\\daqUtil"
+	"c:\\program files (x86)\\national instruments\\cvi2015\\toolslib\\printing"
+	"c:\\program files (x86)\\national instruments\\cvi2015\\toolslib\\toolbox"
+	"c:\\program files (x86)\\national instruments\\cvi2015\\toolslib\\reportgen"
+	"c:\\program files (x86)\\national instruments\\cvi2015\\toolslib\\localui"
+	"c:\\program files (x86)\\national instruments\\cvi2015\\instr"
+	"C:\\Program Files (x86)\\National Instruments\\Shared\\CVI\\toolslib\\custctrl"
+	"C:\\Program Files (x86)\\National Instruments\\Shared\\CVI\\toolslib\\custctrl\\custsupp"
+	"C:\\Program Files (x86)\\National Instruments\\Shared\\CVI\\instr"
+	"C:\\ProgramData\\National Instruments\\CVI2015\\instr"
+	"c:\\program files (x86)\\national instruments\\cvi2015\\include"
+	"C:\\Program Files (x86)\\National Instruments\\Shared\\CVI\\include"
+	"C:\\ProgramData\\National Instruments\\CVI2015\\include"
+	"C:\\ProgramData\\National Instruments\\CVI\\include"
+	"c:\\program files (x86)\\national instruments\\cvi2015\\include\\ansi"
+	"c:\\program files (x86)\\national instruments\\cvi2015\\include\\clang\\3.3"
+	"C:\\Program Files (x86)\\IVI Foundation\\IVI\\Include"
+	"C:\\Program Files (x86)\\IVI Foundation\\VISA\\winnt\\include"
+	"C:\\Program Files (x86)\\National Instruments\\Shared\\MSDTRedistributables\\SDKHeaderFiles\\8.1"
+	"c:\\Program Files (x86)\\National Instruments\\CVI2015\\bin"
+	"c:\\ProgramData\\National Instruments\\CVI2015\\bin"
+	"c:\\Program Files (x86)\\National Instruments\\Shared\\CVI\\Bin"
+	;
+include Jamfile_instr ;
+LOCATE on "DAQTaskInProject.c" = "c:\\科研\\经颅磁刺激\\TMS_20161222" ;
+LOCATE on "DAQTaskInProject.h" = "c:\\科研\\经颅磁刺激\\TMS_20161222" ;
+LOCATE on "DAQTaskInTempProject.c" = "c:\\科研\\经颅磁刺激\\TMS_20161222" ;
+LOCATE on "DAQTaskInTempProject.h" = "c:\\科研\\经颅磁刺激\\TMS_20161222" ;
+LOCATE on "Self_Def.h" = "c:\\科研\\经颅磁刺激\\TMS_20161222" ;
+LOCATE on "TMS.c" = "c:\\科研\\经颅磁刺激\\TMS_20161222" ;
+LOCATE on "TMS.h" = "c:\\科研\\经颅磁刺激\\TMS_20161222" ;
+Object "c:\\科研\\经颅磁刺激\\TMS_20161222\\cvibuild.TMS\\Release\\DAQTaskInProject.obj" : "c:\\科研\\经颅磁刺激\\TMS_20161222\\DAQTaskInProject.c" ;
+FILENUM on "c:\\科研\\经颅磁刺激\\TMS_20161222\\cvibuild.TMS\\Release\\DAQTaskInProject.obj" = 1 ;
+DEFPROTS on "c:\\科研\\经颅磁刺激\\TMS_20161222\\cvibuild.TMS\\Release\\DAQTaskInProject.obj" = "c:\\科研\\经颅磁刺激\\TMS_20161222\\cvibuild.TMS\\Release\\DAQTaskInProject.obj.cvidefprots" ;
+OUTFILE on "c:\\科研\\经颅磁刺激\\TMS_20161222\\cvibuild.TMS\\Release\\DAQTaskInProject.obj" = "c:\\科研\\经颅磁刺激\\TMS_20161222\\cvibuild.TMS\\Release\\DAQTaskInProject.obj.out" ;
+PrjObjects += "c:\\科研\\经颅磁刺激\\TMS_20161222\\cvibuild.TMS\\Release\\DAQTaskInProject.obj" ;
+Object "c:\\科研\\经颅磁刺激\\TMS_20161222\\cvibuild.TMS\\Release\\DAQTaskInTempProject.obj" : "c:\\科研\\经颅磁刺激\\TMS_20161222\\DAQTaskInTempProject.c" ;
+FILENUM on "c:\\科研\\经颅磁刺激\\TMS_20161222\\cvibuild.TMS\\Release\\DAQTaskInTempProject.obj" = 2 ;
+DEFPROTS on "c:\\科研\\经颅磁刺激\\TMS_20161222\\cvibuild.TMS\\Release\\DAQTaskInTempProject.obj" = "c:\\科研\\经颅磁刺激\\TMS_20161222\\cvibuild.TMS\\Release\\DAQTaskInTempProject.obj.cvidefprots" ;
+OUTFILE on "c:\\科研\\经颅磁刺激\\TMS_20161222\\cvibuild.TMS\\Release\\DAQTaskInTempProject.obj" = "c:\\科研\\经颅磁刺激\\TMS_20161222\\cvibuild.TMS\\Release\\DAQTaskInTempProject.obj.out" ;
+PrjObjects += "c:\\科研\\经颅磁刺激\\TMS_20161222\\cvibuild.TMS\\Release\\DAQTaskInTempProject.obj" ;
+Object "c:\\科研\\经颅磁刺激\\TMS_20161222\\cvibuild.TMS\\Release\\TMS.obj" : "c:\\科研\\经颅磁刺激\\TMS_20161222\\TMS.c" ;
+FILENUM on "c:\\科研\\经颅磁刺激\\TMS_20161222\\cvibuild.TMS\\Release\\TMS.obj" = 3 ;
+DEFPROTS on "c:\\科研\\经颅磁刺激\\TMS_20161222\\cvibuild.TMS\\Release\\TMS.obj" = "c:\\科研\\经颅磁刺激\\TMS_20161222\\cvibuild.TMS\\Release\\TMS.obj.cvidefprots" ;
+OUTFILE on "c:\\科研\\经颅磁刺激\\TMS_20161222\\cvibuild.TMS\\Release\\TMS.obj" = "c:\\科研\\经颅磁刺激\\TMS_20161222\\cvibuild.TMS\\Release\\TMS.obj.out" ;
+PrjObjects += "c:\\科研\\经颅磁刺激\\TMS_20161222\\cvibuild.TMS\\Release\\TMS.obj" ;
+Object "c:\\科研\\经颅磁刺激\\TMS_20161222\\cvibuild.TMS\\Release\\resources.res" : "c:\\科研\\经颅磁刺激\\TMS_20161222\\cvibuild.TMS\\Release\\resources.in.rc" ;
+MainFromObjects "c:\\科研\\经颅磁刺激\\TMS_20161222\\cvibuild.TMS\\Release\\TMS.exe" : $(PrjObjects) $(InstrObjects) ;
+Depends "c:\\科研\\经颅磁刺激\\TMS_20161222\\cvibuild.TMS\\Release\\TMS.exe" : "c:\\科研\\经颅磁刺激\\TMS_20161222\\cvibuild.TMS\\Release\\link_options.txt" ;
+Depends "c:\\科研\\经颅磁刺激\\TMS_20161222\\cvibuild.TMS\\Release\\TMS.exe" : "c:\\科研\\经颅磁刺激\\TMS_20161222\\cvibuild.TMS\\Release\\resources.res" ;
+Depends all : "c:\\科研\\经颅磁刺激\\TMS_20161222\\cvibuild.TMS\\Release\\TMS.exe" ;

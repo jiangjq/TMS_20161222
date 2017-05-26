@@ -1,0 +1,4 @@
+[CreateDAQTask100us]
+Class="Function"
+Prototype="long CreateDAQTask100us(void **taskOut1);"
+

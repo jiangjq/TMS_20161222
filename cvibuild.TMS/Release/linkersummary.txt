@@ -1,0 +1,16 @@
+DAQTaskInProject.obj
+DAQTaskInTempProject.obj
+TMS.obj
+cvistart.lib
+cvi.lib
+asynctmr.obj
+kernel32.lib
+NIDAQmx.lib
+toolbox.obj
+advapi32.lib
+cviauto.lib
+gdi32.lib
+user32.lib
+EXE Symbol Module
+Exports Module
+Resource Module

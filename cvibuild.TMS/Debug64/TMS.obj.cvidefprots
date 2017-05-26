@@ -1,0 +1,428 @@
+[main]
+Class="Function"
+Prototype="int main(int argc, char **argv);"
+
+[UDPCallback]
+Class="Function"
+Prototype="int UDPCallback(unsigned int channel, int eventType, int errCode, void *callbackData);"
+
+[panelCB]
+Class="Function"
+Prototype="int panelCB(int panel, int event, void *callbackData, int eventData1, int eventData2);"
+
+[SetFullScreen]
+Class="Function"
+Prototype="void SetFullScreen();"
+
+[ReadSysPara]
+Class="Function"
+Prototype="int ReadSysPara();"
+
+[WriteSysPara]
+Class="Function"
+Prototype="int WriteSysPara();"
+
+[IsComputerAuthorized]
+Class="Function"
+Prototype="int IsComputerAuthorized();"
+
+[IsDeviceOK]
+Class="Function"
+Prototype="int IsDeviceOK();"
+
+[ClearFocusSel]
+Class="Function"
+Prototype="void ClearFocusSel();"
+
+[Focus_Sel]
+Class="Function"
+Prototype="void Focus_Sel(int n);"
+
+[Sys_Init]
+Class="Function"
+Prototype="void Sys_Init();"
+
+[DisplayImage]
+Class="Function"
+Prototype="int DisplayImage();"
+
+[StatusDetect_Task]
+Class="Function"
+Prototype="int StatusDetect_Task();"
+
+[StatusAsyncTimerCallback]
+Class="Function"
+Prototype="int StatusAsyncTimerCallback(int reserved, int theTimerId, int event, void *callbackData, int eventData1, int eventData2);"
+
+[StatusDetectThreadFunction]
+Class="Function"
+Prototype="int StatusDetectThreadFunction(void *functionData);"
+
+[TmpAcq_Task]
+Class="Function"
+Prototype="void TmpAcq_Task();"
+
+[SglDisOk_Task]
+Class="Function"
+Prototype="void SglDisOk_Task();"
+
+[PwrOk_Task]
+Class="Function"
+Prototype="void PwrOk_Task();"
+
+[CoilDetect_Task]
+Class="Function"
+Prototype="void CoilDetect_Task();"
+
+[Cmd_Start_Stim]
+Class="Function"
+Prototype="int Cmd_Start_Stim(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[DisCharge]
+Class="Function"
+Prototype="void DisCharge(double second);"
+
+[Fcs_4_Tblr]
+Class="Function"
+Prototype="int Fcs_4_Tblr(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[Fcs_1_Top]
+Class="Function"
+Prototype="int Fcs_1_Top(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[Fcs_1_Lft]
+Class="Function"
+Prototype="int Fcs_1_Lft(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[Fcs_1_Btm]
+Class="Function"
+Prototype="int Fcs_1_Btm(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[Fcs_1_Rt]
+Class="Function"
+Prototype="int Fcs_1_Rt(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[Fcs_L_Hz]
+Class="Function"
+Prototype="int Fcs_L_Hz(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[Fcs_L_Vtc]
+Class="Function"
+Prototype="int Fcs_L_Vtc(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[Tab_Stim_Mode]
+Class="Function"
+Prototype="int Tab_Stim_Mode(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[StimProgress_Exit]
+Class="Function"
+Prototype="void StimProgress_Exit();"
+
+[StatusDetect_Exit]
+Class="Function"
+Prototype="void StatusDetect_Exit();"
+
+[Cmd_Exit_Sw]
+Class="Function"
+Prototype="int Cmd_Exit_Sw(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[Free_Memory]
+Class="Function"
+Prototype="void Free_Memory();"
+
+[Cb_Cc1_Sgl_Stim]
+Class="Function"
+Prototype="int Cb_Cc1_Sgl_Stim(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[Cb_Cc1_Rpt_Stim]
+Class="Function"
+Prototype="int Cb_Cc1_Rpt_Stim(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[Cb_Cc1_Sqc_Stim]
+Class="Function"
+Prototype="int Cb_Cc1_Sqc_Stim(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[Cb_Sgl8_Sgl_Stim]
+Class="Function"
+Prototype="int Cb_Sgl8_Sgl_Stim(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[Cb_Sgl8_Rpt_Stim]
+Class="Function"
+Prototype="int Cb_Sgl8_Rpt_Stim(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[Cb_Sgl8_Sqc_Stim]
+Class="Function"
+Prototype="int Cb_Sgl8_Sqc_Stim(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[Cb_Dbl8_Sgl_Stim]
+Class="Function"
+Prototype="int Cb_Dbl8_Sgl_Stim(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[Cb_Dbl8_Rpt_Stim]
+Class="Function"
+Prototype="int Cb_Dbl8_Rpt_Stim(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[Cb_Dbl8_Sqc_Stim]
+Class="Function"
+Prototype="int Cb_Dbl8_Sqc_Stim(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[Cb_Cc4_Sqc_Stim]
+Class="Function"
+Prototype="int Cb_Cc4_Sqc_Stim(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[Cb_Cc4_Rpt_Stim]
+Class="Function"
+Prototype="int Cb_Cc4_Rpt_Stim(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[Cb_Cc4_Sgl_Stim]
+Class="Function"
+Prototype="int Cb_Cc4_Sgl_Stim(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[SendMsgToLog]
+Class="Function"
+Prototype="void SendMsgToLog(char *str);"
+
+[Cmd_Stop_Stim]
+Class="Function"
+Prototype="int Cmd_Stop_Stim(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[ClearAllStimMode]
+Class="Function"
+Prototype="void ClearAllStimMode();"
+
+[Stim_ThreadFunction]
+Class="Function"
+Prototype="int Stim_ThreadFunction(void *functionData);"
+
+[Cc1_Sgl_Stim]
+Class="Function"
+Prototype="int Cc1_Sgl_Stim();"
+
+[Cc1_Rpt_Stim]
+Class="Function"
+Prototype="int Cc1_Rpt_Stim();"
+
+[DelayTime]
+Class="Function"
+Prototype="int DelayTime(double second);"
+
+[Cc1_Sqc_Stim]
+Class="Function"
+Prototype="int Cc1_Sqc_Stim();"
+
+[Sgl8_Sgl_Stim]
+Class="Function"
+Prototype="int Sgl8_Sgl_Stim();"
+
+[Sgl8_Rpt_Stim]
+Class="Function"
+Prototype="int Sgl8_Rpt_Stim();"
+
+[Sgl8_Sqc_Stim]
+Class="Function"
+Prototype="int Sgl8_Sqc_Stim();"
+
+[Dbl8_Sgl_Stim]
+Class="Function"
+Prototype="int Dbl8_Sgl_Stim();"
+
+[Dbl8_Rpt_Stim]
+Class="Function"
+Prototype="int Dbl8_Rpt_Stim();"
+
+[Dbl8_Sqc_Stim]
+Class="Function"
+Prototype="int Dbl8_Sqc_Stim();"
+
+[Cc4_Sgl_Stim]
+Class="Function"
+Prototype="int Cc4_Sgl_Stim();"
+
+[Cc4_Rpt_Stim]
+Class="Function"
+Prototype="int Cc4_Rpt_Stim();"
+
+[Cc4_Sqc_Stim]
+Class="Function"
+Prototype="int Cc4_Sqc_Stim();"
+
+[StimAsyncTimerCallback]
+Class="Function"
+Prototype="int StimAsyncTimerCallback(int reserved, int theTimerId, int event, void *callbackData, int eventData1, int eventData2);"
+
+[ShowStimSlide]
+Class="Function"
+Prototype="void ShowStimSlide(double stimtime);"
+
+[Send_Stim_Volt_Command]
+Class="Function"
+Prototype="int Send_Stim_Volt_Command(double *volt);"
+
+[Send_CHRG_DisCHRG_Command]
+Class="Function"
+Prototype="int Send_CHRG_DisCHRG_Command(int stim_cycle, double stim_time, double stim_freq);"
+
+[Send_Ctr0_Command]
+Class="Function"
+Prototype="void Send_Ctr0_Command(int clock_num);"
+
+[Cmd_Cc1_Sqc_Stim_Add]
+Class="Function"
+Prototype="int Cmd_Cc1_Sqc_Stim_Add(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[Cmd_Cc1_Sqc_Stim_Clc]
+Class="Function"
+Prototype="int Cmd_Cc1_Sqc_Stim_Clc(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[Cmd_Cc1_Sqc_Stim_Del]
+Class="Function"
+Prototype="int Cmd_Cc1_Sqc_Stim_Del(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[Cmd_Sgl8_Sqc_Stim_Add]
+Class="Function"
+Prototype="int Cmd_Sgl8_Sqc_Stim_Add(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[Cmd_Sgl8_Sqc_Stim_Del]
+Class="Function"
+Prototype="int Cmd_Sgl8_Sqc_Stim_Del(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[Cmd_Sgl8_Sqc_Stim_Clc]
+Class="Function"
+Prototype="int Cmd_Sgl8_Sqc_Stim_Clc(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[Cmd_Dbl8_Sqc_Stim_Add]
+Class="Function"
+Prototype="int Cmd_Dbl8_Sqc_Stim_Add(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[Cmd_Dbl8_Sqc_Stim_Del]
+Class="Function"
+Prototype="int Cmd_Dbl8_Sqc_Stim_Del(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[Cmd_Dbl8_Sqc_Stim_Clc]
+Class="Function"
+Prototype="int Cmd_Dbl8_Sqc_Stim_Clc(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[Dbl8_Sqc_Coil]
+Class="Function"
+Prototype="int Dbl8_Sqc_Coil(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[Send_FCS_SEL_Command]
+Class="Function"
+Prototype="void Send_FCS_SEL_Command(int nChnlNum);"
+
+[Cc4_Sqc_Fcs]
+Class="Function"
+Prototype="int Cc4_Sqc_Fcs(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[Cmd_Cc4_Sqc_Stim_Add]
+Class="Function"
+Prototype="int Cmd_Cc4_Sqc_Stim_Add(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[Cmd_Cc4_Sqc_Stim_Del]
+Class="Function"
+Prototype="int Cmd_Cc4_Sqc_Stim_Del(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[Cmd_Cc4_Sqc_Stim_Clc]
+Class="Function"
+Prototype="int Cmd_Cc4_Sqc_Stim_Clc(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[ShowSysTime]
+Class="Function"
+Prototype="void ShowSysTime();"
+
+[Cb_Dbl8_Sgl_A]
+Class="Function"
+Prototype="int Cb_Dbl8_Sgl_A(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[Cb_Dbl8_Sgl_B]
+Class="Function"
+Prototype="int Cb_Dbl8_Sgl_B(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[Cb_Dbl8_Rpt_A]
+Class="Function"
+Prototype="int Cb_Dbl8_Rpt_A(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[Cb_Dbl8_Rpt_B]
+Class="Function"
+Prototype="int Cb_Dbl8_Rpt_B(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[Cmd_Sys_Config]
+Class="Function"
+Prototype="int Cmd_Sys_Config(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[Panel_Sys]
+Class="Function"
+Prototype="int Panel_Sys(int panel, int event, void *callbackData, int eventData1, int eventData2);"
+
+[Tab_Sys_Config]
+Class="Function"
+Prototype="int Tab_Sys_Config(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[Cmd_Sys_Config_Cancel]
+Class="Function"
+Prototype="int Cmd_Sys_Config_Cancel(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[Cmd_Sys_Config_Ok]
+Class="Function"
+Prototype="int Cmd_Sys_Config_Ok(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[Rdb_Cc1]
+Class="Function"
+Prototype="int Rdb_Cc1(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[Rdb_Sgl8]
+Class="Function"
+Prototype="int Rdb_Sgl8(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[Rdb_Dbl8_A]
+Class="Function"
+Prototype="int Rdb_Dbl8_A(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[Rdb_Dbl8_B]
+Class="Function"
+Prototype="int Rdb_Dbl8_B(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[Rdb_Cc4]
+Class="Function"
+Prototype="int Rdb_Cc4(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[Table_Coil]
+Class="Function"
+Prototype="int Table_Coil(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[CoilTemp_Max]
+Class="Function"
+Prototype="int CoilTemp_Max(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[DisChrg_Time]
+Class="Function"
+Prototype="int DisChrg_Time(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[Cmd_Pt_Config]
+Class="Function"
+Prototype="int Cmd_Pt_Config(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[Cmd_Patient_Add]
+Class="Function"
+Prototype="int Cmd_Patient_Add(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[Cmd_Patient_Del]
+Class="Function"
+Prototype="int Cmd_Patient_Del(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[Cmd_Patient_Save]
+Class="Function"
+Prototype="int Cmd_Patient_Save(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[Cmd_Patient_Cancel]
+Class="Function"
+Prototype="int Cmd_Patient_Cancel(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[Table_Patient]
+Class="Function"
+Prototype="int Table_Patient(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[Cmd_Patient_Sel]
+Class="Function"
+Prototype="int Cmd_Patient_Sel(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+

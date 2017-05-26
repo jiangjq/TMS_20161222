@@ -1,0 +1,307 @@
+[Workspace Header]
+Version = 1500
+Pathname = "/c/科研/经颅磁刺激/TMS_20161222/TMS.cws"
+CVI Dir = "/c/program files (x86)/national instruments/cvi2015"
+CVI Shared Dir = "/C/Program Files (x86)/National Instruments/Shared/CVI"
+CVI Pub Local Dir = "/C/ProgramData/National Instruments/CVI2015"
+CVI Pub Global Dir = "/C/ProgramData/National Instruments/CVI"
+IVI Standard Root Dir = "/C/Program Files (x86)/IVI Foundation/IVI"
+IVI Standard Root 64-bit Dir = "/C/Program Files/IVI Foundation/IVI"
+VXIplug&play Framework Dir = "/C/Program Files (x86)/IVI Foundation/VISA/winnt"
+VXIplug&play Framework 64-bit Dir = "/C/Program Files/IVI Foundation/VISA/win64"
+Number of Projects = 1
+Active Project = 1
+Project 0001 = "TMS.prj"
+Drag Bar Left = 370
+Window Top = 188
+Window Left = 36
+Window Bottom = 690
+Window Right = 826
+Maximized = True
+Maximized Children = True
+Max32 Number Of Errors = 20
+Track Include File Dependencies = True
+Prompt For Missing Includes = True
+Stop On First Error File = False
+Bring Up Err Win At Start = True
+Bring Up Err Win For Errors = False
+Save Changes Before Running = "Always"
+Save Changes Before Compiling = "Always"
+Hide Windows = False
+Break At First Statement = False
+Sort Type = "File Name"
+Number of Opened Files = 4
+Window Confinement Region Enabled = True
+MainColumnWidth = 353
+FileDateColumnWidth = 70
+FileSizeColumnWidth = 70
+
+[Project Header 0001]
+Version = 1500
+Don't Update DistKit = False
+Platform Code = 4
+Build Configuration = "Release"
+Warn User If Debugging Release = 0
+Batch Build Release = False
+Batch Build Debug = False
+
+[File 0001]
+Path = "/c/Program Files (x86)/National Instruments/CVI2015/toolslib/toolbox/asynctmr.fp"
+File Type = "Function Panel"
+Disk Date = 3517405200
+In Projects = "1,"
+
+[File 0002]
+Path = "/c/科研/经颅磁刺激/TMS_20161222/TMS.c"
+File Type = "CSource"
+Disk Date = 3576195786
+In Projects = "1,"
+Window Top = 159
+Window Left = 123
+Window Z-Order = 1
+Source Window State = "1,470,470,470,5,15,15,0,0,124,0,0,0,3,30,25,465,0,480,56,657,898,1,0,"
+Line Tags = "3299,3769,6766,6827,"
+
+[File 0003]
+Path = "/c/科研/经颅磁刺激/TMS_20161222/Self_Def.h"
+File Type = "Include"
+Disk Date = 3575433260
+In Projects = "1,"
+Window Top = 92
+Window Left = 42
+Window Z-Order = 3
+Source Window State = "1,123,123,123,20,38,38,0,0,66,0,81,0,0,0,21,0,0,182,49,609,858,1,12,"
+
+[File 0004]
+Path = "/c/科研/经颅磁刺激/TMS_20161222/TMS.h"
+File Type = "Include"
+Disk Date = 3574833242
+In Projects = "1,"
+Window Top = 64
+Window Left = 26
+Window Z-Order = 4
+Source Window State = "1,83,83,83,9,28,9,0,0,55,0,0,0,0,0,16,0,0,81,136,479,720,1,0,"
+
+[File 0005]
+Path = "/c/Program Files (x86)/National Instruments/CVI2015/toolslib/toolbox/toolbox.h"
+File Type = "Include"
+Disk Date = 3517405200
+In Projects = ""
+Window Top = 47
+Window Left = 13
+Window Z-Order = 2
+Source Window State = "1,414,414,414,8,14,14,0,3,80,0,0,0,0,0,15,12,0,414,8,443,1027,1,0,"
+
+[File 0006]
+Path = "/c/科研/经颅磁刺激/TMS_20161222/TMS.uir"
+File Type = "User Interface Resource"
+Disk Date = 3574833242
+In Projects = "1,"
+Window Top = 33
+Window Left = 10
+Window Height = 275
+Window Width = 517
+
+[File 0007]
+Path = "/c/科研/经颅磁刺激/TMS_20161222/para/Others.ini"
+File Type = "Unknown"
+Disk Date = 3576139522
+In Projects = "1,"
+Window Top = 33
+Window Left = 10
+
+[File 0008]
+Path = "/c/科研/经颅磁刺激/TMS_20161222/para/StimPara_CC1.txt"
+File Type = "Unknown"
+Disk Date = 3572566232
+In Projects = "1,"
+
+[File 0009]
+Path = "/c/科研/经颅磁刺激/TMS_20161222/para/StimPara_CC4.txt"
+File Type = "Unknown"
+Disk Date = 3572566260
+In Projects = "1,"
+
+[File 0010]
+Path = "/c/科研/经颅磁刺激/TMS_20161222/para/StimPara_DBL8_A - 副本.txt"
+File Type = "Unknown"
+Disk Date = 3560139464
+In Projects = "1,"
+
+[File 0011]
+Path = "/c/科研/经颅磁刺激/TMS_20161222/para/StimPara_DBL8_A.txt"
+File Type = "Unknown"
+Disk Date = 3572566268
+In Projects = "1,"
+
+[File 0012]
+Path = "/c/科研/经颅磁刺激/TMS_20161222/para/StimPara_DBL8_B.txt"
+File Type = "Unknown"
+Disk Date = 3572566276
+In Projects = "1,"
+
+[File 0013]
+Path = "/c/科研/经颅磁刺激/TMS_20161222/para/StimPara_SGL8.txt"
+File Type = "Unknown"
+Disk Date = 3572566284
+In Projects = "1,"
+
+[File 0014]
+Path = "/c/科研/经颅磁刺激/TMS_20161222/para/工作簿1.xlsx"
+File Type = "Unknown"
+Disk Date = 3572480494
+In Projects = "1,"
+
+[File 0015]
+Path = "/c/科研/经颅磁刺激/TMS_20161222/DAQTaskInProject.c"
+File Type = "CSource"
+Disk Date = 3575433752
+In Projects = "1,"
+Window Top = 33
+Window Left = 10
+Source Window State = "1,25,25,25,6,24,24,0,0,0,0,0,0,0,0,0,16,0,28,90,335,744,1,0,"
+
+[File 0016]
+Path = "/c/科研/经颅磁刺激/TMS_20161222/DAQTaskInProject.h"
+File Type = "Include"
+Disk Date = 3575433752
+In Projects = "1,"
+Window Top = 64
+Window Left = 26
+Source Window State = "1,28,28,28,6,24,24,0,0,0,0,0,0,0,0,0,19,0,31,81,335,744,1,0,"
+
+[File 0017]
+Path = "/c/科研/经颅磁刺激/TMS_20161222/DAQTaskInProject.mxb"
+File Type = "Unknown"
+Disk Date = 3575433752
+In Projects = "1,"
+
+[File 0018]
+Path = "/c/科研/经颅磁刺激/TMS_20161222/DAQTaskInTempProject.c"
+File Type = "CSource"
+Disk Date = 3574744432
+In Projects = "1,"
+Window Top = 126
+Window Left = 58
+Source Window State = "1,25,25,25,6,32,32,0,0,0,0,0,0,0,0,0,12,0,29,87,461,744,1,0,"
+
+[File 0019]
+Path = "/c/科研/经颅磁刺激/TMS_20161222/DAQTaskInTempProject.h"
+File Type = "Include"
+Disk Date = 3574744432
+In Projects = "1,"
+Window Top = 157
+Window Left = 74
+Source Window State = "1,28,28,28,6,32,32,0,0,0,0,0,0,0,0,0,12,0,28,6,461,744,1,0,"
+
+[File 0020]
+Path = "/c/科研/经颅磁刺激/TMS_20161222/DAQTaskInTempProject.mxb"
+File Type = "Unknown"
+Disk Date = 3574744432
+In Projects = "1,"
+
+[Tab Order]
+Tab 0001 = "/c/科研/经颅磁刺激/TMS_20161222/TMS.h"
+Tab 0002 = "/c/科研/经颅磁刺激/TMS_20161222/Self_Def.h"
+Tab 0003 = "/c/科研/经颅磁刺激/TMS_20161222/TMS.c"
+Tab 0004 = "/c/Program Files (x86)/National Instruments/CVI2015/toolslib/toolbox/toolbox.h"
+
+[Default Build Config 0001 Debug]
+Generate Browse Info = True
+Enable Uninitialized Locals Runtime Warning = True
+Batch Build = False
+Profile = "Disabled"
+Debugging Level = "No Run-time Checking"
+Execution Trace = "Disabled"
+Command Line Args = ""
+Working Directory = ""
+Environment Options = ""
+External Process Path = ""
+
+[Default Build Config 0001 Release]
+Generate Browse Info = True
+Enable Uninitialized Locals Runtime Warning = True
+Batch Build = False
+Profile = "Disabled"
+Debugging Level = "Standard"
+Execution Trace = "Disabled"
+Command Line Args = ""
+Working Directory = ""
+Environment Options = ""
+External Process Path = ""
+
+[Default Build Config 0001 Debug64]
+Generate Browse Info = True
+Enable Uninitialized Locals Runtime Warning = True
+Batch Build = False
+Profile = "Disabled"
+Debugging Level = "Standard"
+Execution Trace = "Disabled"
+Command Line Args = ""
+Working Directory = ""
+Environment Options = ""
+External Process Path = ""
+
+[Default Build Config 0001 Release64]
+Generate Browse Info = True
+Enable Uninitialized Locals Runtime Warning = True
+Batch Build = False
+Profile = "Disabled"
+Debugging Level = "Standard"
+Execution Trace = "Disabled"
+Command Line Args = ""
+Working Directory = ""
+Environment Options = ""
+External Process Path = ""
+
+[Build Dependencies 0001]
+Number of Dependencies = 0
+
+[Build Options 0001]
+Generate Browse Info = True
+Enable Uninitialized Locals Runtime Warning = True
+Execution Trace = "Disabled"
+Profile = "Disabled"
+Debugging Level = "Standard"
+Break On Library Errors = True
+Break On First Chance Exceptions = False
+
+[Execution Target 0001]
+Execution Target Address = "Local desktop computer"
+Execution Target Port = 0
+Execution Target Type = 0
+
+[SCC Options 0001]
+Use global settings = True
+SCC Provider = ""
+SCC Project = ""
+Local Path = ""
+Auxiliary Path = ""
+Perform Same Action For .h File As For .uir File = "Ask"
+Perform Same Action For .cds File As For .prj File = "Ask"
+Username = ""
+Comment = ""
+Use Default Username = False
+Use Default Comment = False
+Suppress CVI Error Messages = False
+Always show confirmation dialog = True
+
+[DLL Debugging Support 0001]
+External Process Path = ""
+
+[Command Line Args 0001]
+Command Line Args = ""
+Working Directory = ""
+Environment Options = ""
+
+[Watch 1]
+Watch Expression = "data"
+
+[Watch 2]
+Watch Expression = "TempVal1"
+
+[Distributions]
+Active Index = 1
+AbsCDSPath 0001 = "/c/科研/经颅磁刺激/TMS_20161222/TMS.cds"
+RelCDSPath 0001 = "TMS.cds"
+

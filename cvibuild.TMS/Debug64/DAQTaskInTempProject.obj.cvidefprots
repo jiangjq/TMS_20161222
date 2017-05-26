@@ -1,0 +1,4 @@
+[CreateDAQTaskInTempProject]
+Class="Function"
+Prototype="long CreateDAQTaskInTempProject(void **taskOut1);"
+
